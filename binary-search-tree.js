@@ -11,7 +11,7 @@
 // degenerate: 자식 갯수가 모두 하나인 구조, 가장 비효율적임
 // balanced: 모든 노드의 diff가 0 또는 1인 트리
 
-class BinarySearchTree {
+export class BinarySearchTree {
   root = null;
 
   insert(value) {
@@ -132,21 +132,21 @@ class Node {
   }
 }
 
-const bst = new BinarySearchTree();
-bst.insert(8);
-bst.insert(1);
-bst.insert(6);
-bst.insert(123);
-bst.insert(42);
-bst.insert(31);
-bst.insert(62);
-bst.insert(32);
+// const bst = new BinarySearchTree();
+// bst.insert(8);
+// bst.insert(1);
+// bst.insert(6);
+// bst.insert(123);
+// bst.insert(42);
+// bst.insert(31);
+// bst.insert(62);
+// bst.insert(32);
 
-console.log(bst.search(32));
-console.log(bst.search(33));
-console.log(bst.search(62));
-console.log(bst.search(8));
+// console.log(bst.search(32));
+// console.log(bst.search(33));
+// console.log(bst.search(62));
+// console.log(bst.search(8));
 
-bst.remove(8);
-console.log(bst.remove(15)); // false
-bst.remove(4);
+// bst.remove(8);
+// console.log(bst.remove(15)); // false
+// bst.remove(4);
