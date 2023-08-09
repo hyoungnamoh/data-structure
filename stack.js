@@ -1,6 +1,6 @@
 // 공간복잡도 O(n)
 
-class Stack {
+export class Stack {
   constructor() {
     this.arr = [];
   }

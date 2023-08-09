@@ -1,6 +1,6 @@
 // 공간복잡도 O(n)
 
-class Queue {
+export class Queue {
   constructor() {
     this.arr = [];
   }
@@ -23,8 +23,8 @@ class Queue {
   }
 }
 
-const queue = new Queue();
-queue.enqueue(6);
-queue.enqueue(3);
-queue.dequeue();
-queue.peek();
+// const queue = new Queue();
+// queue.enqueue(6);
+// queue.enqueue(3);
+// queue.dequeue();
+// queue.peek();

@@ -1,3 +1,4 @@
+// root가 존재하고 in degree가 1인 특수한 그래프
 // leaf: 자식이 없는 노드
 
 class Tree {
